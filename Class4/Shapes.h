@@ -1,10 +1,3 @@
-//
-//  Shapes.h
-//  Clase 8 de Abril
-//
-//  Created by Jesus Llano García on 08/04/22.
-//
-
 #ifndef Shapes_h
 #define Shapes_h
 
@@ -27,7 +20,7 @@ public:
     }
     
     virtual std::string draw(){
-        return "Soy una Figura";
+        return "I'm a figure";
     }
     
     int getValueX(){
@@ -56,7 +49,7 @@ class Circle : public Shape {
         }
 
         std::string draw(){
-            return "Soy un Círculo";
+            return "I'm a circle";
         }
 };
 
@@ -93,7 +86,7 @@ class Triangle : public Shape {
         }
 
         std::string draw(){
-            return "Soy un Triángulo";
+            return "I'm a triangle";
         }
 };
 
@@ -123,7 +116,7 @@ class Rectangle : public Shape {
         }
 
         std::string draw(){
-            return "Soy un Rectángulo";
+            return "I'm a rectangle";
         }
 };
 

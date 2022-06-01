@@ -9,7 +9,6 @@ class FirstClass {
         std::string String;
 
         int classAttNum = 10;
-
 };
 
 #endif

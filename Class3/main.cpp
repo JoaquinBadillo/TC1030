@@ -7,7 +7,7 @@ int main()
     FirstClass myObj;
 
     myObj.Num = 15;
-    myObj.String = "Hola mundo";
+    myObj.String = "Hello world!";
 
     std::cout << "Num: " << myObj.Num << std::endl;
     std::cout << "String: " << myObj.String << std::endl;

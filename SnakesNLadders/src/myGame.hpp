@@ -54,7 +54,7 @@ class MyGame: public Grid
                 }
             }
 
-            std::system("clear");
+            std::system("@cls||clear");
 
             updateLayout(player1, 1);
             updateLayout(player2, 2);
